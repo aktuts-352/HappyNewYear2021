@@ -154,7 +154,15 @@ body{
 {
 	color: #fff;
 	margin-left: 2px;
+	animation: fadeText 8s linear forwards;
 }
+.footer h3 pre
+{
+	color: #fff;
+	animation: fadeText 9s linear forwards;
+	
+}
+
 @media screen and (max-width: 800px) {
 	.center, .footer {
 		width: 100%;
